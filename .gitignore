@@ -1,0 +1,66 @@
+
+---
+
+### `.gitignore`
+
+```gitignore
+# Build output
+bin/
+obj/
+out/
+build/
+dist/
+publish/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.7z
+*.rar
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs & runtime
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+crashdumps/
+
+# Session vault (NEVER commit)
+sessions/
+vault/
+*.session
+*.token
+auth.json
+cookies.*
+
+# User config
+config.local.*
+*.local.json
+settings.user.*
+accounts.local.*
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+
+# Secrets
+.env
+*.key
+*.pem
+secrets.*
